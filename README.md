@@ -29,7 +29,26 @@ requirements.txt                          # Python dependencies
 
 ## Results
 
-* Baseline accuracy and evaluation metrics (to be updated after experiments)
+* Baseline accuracy and evaluation metrics:
+
+```
+                         precision    recall  f1-score   support
+             bronchitis       0.98      0.86      0.92       295
+possible nstemi / stemi       0.88      0.61      0.72       150
+                 anemia       0.98      0.94      0.96       140
+                   urti       0.91      0.92      0.91       136
+      viral pharyngitis       0.93      0.93      0.93       136
+              pneumonia       0.91      0.88      0.89        98
+        unstable angina       0.93      0.86      0.89        92
+     allergic sinusitis       1.00      0.99      0.99        85
+guillain-barré syndrome       0.99      0.94      0.96        80
+        localized edema       1.00      0.97      0.99        79
+
+micro avg       0.95      0.88      0.91      1291
+macro avg       0.95      0.89      0.92      1291
+weighted avg       0.95      0.88      0.91      1291
+```
+
 
 ## ⚖️ Disclaimer
 
